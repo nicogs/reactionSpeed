@@ -7,7 +7,7 @@ class Session {
 		this.discAmount = discAmount
 		this.discIndex = 5
 
-		this.timer = 60000
+		this.timer = 120000
 		this.endTime = undefined
 
 		this.scorePosition = scorePos

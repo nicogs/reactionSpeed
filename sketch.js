@@ -22,7 +22,7 @@ function mouseClicked() {
 	rig.tap(mouseX, mouseY)
 }
 
-function touchEnded() {
+function touchStarted() {
 	for (let touch of touches) {
 		rig.tap(touch.x, touch.y);
 	}

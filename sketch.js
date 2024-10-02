@@ -22,6 +22,12 @@ function mouseClicked() {
 	rig.tap(mouseX, mouseY)
 }
 
+function touchEnded() {
+	for (let touch of touches) {
+		rig.tap(touch.x, touch.y);
+	}
+  }
+
 function showSessionResults() {
 
 }

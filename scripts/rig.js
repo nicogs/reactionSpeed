@@ -44,8 +44,8 @@ class Rig {
 		textAlign(CENTER, CENTER);
 		textSize(width / 50)
 
-		text("TIME", this.offset.x + 0.33 * this.width, this.offset.y - (width/30))
-		text("SCORE", this.offset.x + 0.66 * this.width, this.offset.y - (width/30))
+		text("SCORE", this.offset.x + 0.33 * this.width, this.offset.y - (width/30))
+		text("TIME", this.offset.x + 0.66 * this.width, this.offset.y - (width/30))
 	}
 
 	displayResult(){
